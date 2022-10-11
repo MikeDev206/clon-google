@@ -1,36 +1,92 @@
+/*<------------------- Global styles ------------------->*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
-	border: 0;
 	box-sizing: border-box;
 	list-style: none;
 	text-decoration: none;
 	color: #222;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
+html, body {
+	height: 100%;
+	min-width: 400px;
 	margin: 0;
 	padding: 0;
 }
 
+body, input, button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+/*<------------------- Global styles end ------------------->*/
+
+/*<------------------- Header ------------------->*/
+
 header {
+	width: 100%;
+	height: 60px;
+}
+
+header nav {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	padding: 1.5em 0;
+	margin: 0 1.5em;
 }
 
-ul {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.nav-item {
+	margin: 0 10px;
 }
 
-li .nav-item{
-	margin: 0 5px;
+.nav-item:hover {
+	text-decoration: underline;
 }
 
 .nav-icon {
-	width: 20px;
-	height: auto;
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	border-radius: 50%;
+	cursor: pointer;
 }
+
+.apps-icon:hover {
+	background-color: #ebecec;
+}
+
+.material-symbols-outlined {
+	color: #5f6368;
+}
+
+.material-symbols-outlined:hover {
+	background-color: #ebecec;
+}
+
+.avatar-container {
+	padding-left: 0;
+	margin-left: 0;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-left: 3px solid yellow;
+	border-top: 3px solid red;
+	border-right: 3px solid blue;
+	border-bottom: 3px solid green;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.usr-img {
+	width: 40px;
+	height: 40px;
+}
+
+/*<------------------- Header end ------------------->*/
+
+/*<------------------- Main ------------------->*/
+
+/*<------------------- Main end ------------------->*/
