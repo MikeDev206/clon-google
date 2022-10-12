@@ -26,35 +26,35 @@
 					<img class="usr-img" src="./assets/img/myimg.jpg" alt="user button" />
 				</a>
 			</nav>
+			<span class="myName">MikeDev206🦇</span>
 		</header>
 
-		<main class="hero-section">
-			<div class="google-logo" id="logo">
-				<img src="./assets/img/googlelogo_color_272x92dp.png" alt="google logo" />
-			</div>
-			<div class="search-bar-container">
-				<img class="searchbar-icon mag-glass" src="./assets/icons/google-magnifying-glass.svg" alt="search-icon" />
-				<input class="search-bar" type="text" name="search" size="40" />
+		<main>
+			<section class="g-logo">
+				<img id="logo" src="./assets/img/googlelogo_color_272x92dp.png" alt="google-logo" />
+			</section>
+			<section class="search-bar-container">
+				<span class="material-symbols-outlined mag-glass">
+					search
+				</span>
+				<input class="search-bar" type="search" name="search" size="40" />
 				<img class="searchbar-icon mic" src="./assets/icons/google-mic.svg" alt="search-by-voice" />
-			</div>
-			<div class="submit-wrapper">
-				<button class="search-button" id="search" type="submit" aria-label="Google Search">Google Search</button>
-				<button class="search-button" id="lucky" type="submit" aria-label="I'm Feeling Lucky">I'm Feeling Lucky</button>
-			</div>
-			<div class="switch-language">
+			</section>
+			<section class="submit-buttons">
+				<button class="search-button" id="search" aria-label="Google Search">Google Search</button>
+				<button class="search-button" id="lucky" aria-label="I'm Feeling Lucky">I'm Feeling Lucky</button>
+			</section>
+			<section class="language-picker">
 				<p>
-					Google offered in:
-					<a
-						href="https://www.google.com/setprefs?sig=0_socqyYJECQ-I3vx6dkjiTvxZ5v0%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwjKlfaMv9j6AhXJK0QIHUnpC3IQ2ZgBCBE">
-						Español (Latinoamérica)
-					</a>
+					Offered by Google in: Español (<a
+						href="https://www.google.com/setprefs?sig=0_socqyYJECQ-I3vx6dkjiTvxZ5v0%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwjKlfaMv9j6AhXJK0QIHUnpC3IQ2ZgBCBE">Latinoamérica</a>)
 				</p>
-			</div>
+			</section>
 		</main>
 
-		<footer class="footer-container">
+		<footer>
 			<section class="current-location">
-				<h5>México</h5>
+				<p>México</p>
 			</section>
 			<section class="footer-navigation">
 				<div class="left-side-nav">
@@ -82,7 +82,7 @@
 					<a class="nav-item" href="https://policies.google.com/terms?hl=en-MX&fg=1">
 						Terms
 					</a>
-					<div class="dropup">
+					<a class="nav-item dropup" href="#">
 						Settings
 						<ul class="dropup-content">
 							<li>
@@ -123,10 +123,11 @@
 								</button>
 							</li>
 						</ul>
-					</div>
+					</a>
 
 				</div>
 			</section>
 		</footer>
 	</body>
+
 </html>
