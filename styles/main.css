@@ -167,6 +167,11 @@ main {
 	cursor: pointer;
 }
 
+.search-button>a {
+	color: #3c4043;
+	text-decoration: none;
+}
+
 .search-button:hover {
 	border: 1px solid #dadce0;
 }
